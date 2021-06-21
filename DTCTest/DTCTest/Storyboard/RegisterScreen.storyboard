@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="V49-1Z-bc4">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Gibson-Regular.ttf">
+            <string>Gibson-Regular</string>
+        </array>
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Register-->
+        <scene sceneID="dGt-Xl-nI0">
+            <objects>
+                <viewController title="Register" id="V49-1Z-bc4" customClass="RegisterViewController" customModule="DTCTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KUE-4h-3S4">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="username" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qmp-Dh-3NQ" customClass="placeHolderTextField" customModule="DTCTest" customModuleProvider="target">
+                                <rect key="frame" x="41.5" y="64" width="331" height="44"/>
+                                <color key="backgroundColor" red="0.27058823529999998" green="0.30980392159999998" blue="0.38823529410000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="ICs-6c-Ksn"/>
+                                </constraints>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Gibson-Regular" family="Gibson" pointSize="13"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderLabel.textColor">
+                                        <color key="value" red="0.58431372550000005" green="0.61568627450000002" blue="0.67843137249999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Wxk-Se-W8v" customClass="placeHolderTextField" customModule="DTCTest" customModuleProvider="target">
+                                <rect key="frame" x="41.5" y="118" width="331" height="44"/>
+                                <color key="backgroundColor" red="0.27058823529999998" green="0.30980392159999998" blue="0.38823529410000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="JsU-ir-cxt"/>
+                                </constraints>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Gibson-Regular" family="Gibson" pointSize="13"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderLabel.textColor">
+                                        <color key="value" red="0.58431372550000005" green="0.61568627450000002" blue="0.67843137249999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="นามสกุล" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Xxj-dP-ohj" customClass="placeHolderTextField" customModule="DTCTest" customModuleProvider="target">
+                                <rect key="frame" x="41.5" y="226" width="331" height="44"/>
+                                <color key="backgroundColor" red="0.27058823529999998" green="0.30980392159999998" blue="0.38823529410000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="pnu-8z-A2e"/>
+                                </constraints>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Gibson-Regular" family="Gibson" pointSize="13"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderLabel.textColor">
+                                        <color key="value" red="0.58431372550000005" green="0.61568627450000002" blue="0.67843137249999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="ชื่อผู้ใช้" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="K9n-1F-cWD" customClass="placeHolderTextField" customModule="DTCTest" customModuleProvider="target">
+                                <rect key="frame" x="41.5" y="172" width="331" height="44"/>
+                                <color key="backgroundColor" red="0.27058823529999998" green="0.30980392159999998" blue="0.38823529410000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="I1x-7t-Zzb"/>
+                                </constraints>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Gibson-Regular" family="Gibson" pointSize="13"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderLabel.textColor">
+                                        <color key="value" red="0.58431372550000005" green="0.61568627450000002" blue="0.67843137249999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="เลขบัตรประชาชน" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="S3r-59-f2M" customClass="placeHolderTextField" customModule="DTCTest" customModuleProvider="target">
+                                <rect key="frame" x="41.5" y="280" width="331" height="44"/>
+                                <color key="backgroundColor" red="0.27058823529999998" green="0.30980392159999998" blue="0.38823529410000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="gWD-lI-XHL"/>
+                                </constraints>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Gibson-Regular" family="Gibson" pointSize="13"/>
+                                <textInputTraits key="textInputTraits" keyboardType="phonePad"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderLabel.textColor">
+                                        <color key="value" red="0.58431372550000005" green="0.61568627450000002" blue="0.67843137249999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="เบอร์ติดต่อ" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ehc-hX-xZJ" customClass="placeHolderTextField" customModule="DTCTest" customModuleProvider="target">
+                                <rect key="frame" x="41.5" y="334" width="331" height="44"/>
+                                <color key="backgroundColor" red="0.27058823529999998" green="0.30980392159999998" blue="0.38823529410000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="k3Q-UC-mcg"/>
+                                </constraints>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Gibson-Regular" family="Gibson" pointSize="13"/>
+                                <textInputTraits key="textInputTraits" keyboardType="phonePad"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderLabel.textColor">
+                                        <color key="value" red="0.58431372550000005" green="0.61568627450000002" blue="0.67843137249999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Uk-5l-fp0" customClass="ButtonRound" customModule="DTCTest" customModuleProvider="target">
+                                <rect key="frame" x="41.5" y="798" width="331" height="44"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="k7A-eR-GeH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="15"/>
+                                <state key="normal" title="บันทึก">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="CornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="registerTouch:" destination="V49-1Z-bc4" eventType="touchUpInside" id="XYx-iV-4Tl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q0M-w6-Xiw" customClass="ButtonRound" customModule="DTCTest" customModuleProvider="target">
+                                <rect key="frame" x="41.5" y="398" width="331" height="44"/>
+                                <color key="backgroundColor" systemColor="linkColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="dF7-ZU-6FO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="15"/>
+                                <state key="normal" title="เลือกรูปภาพ">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="CornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="imagePickerTouch:" destination="V49-1Z-bc4" eventType="touchUpInside" id="Okg-aH-vHf"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NCQ-IU-1Nc">
+                                <rect key="frame" x="163" y="462" width="88" height="88"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="88" id="iiP-oE-qxh"/>
+                                    <constraint firstAttribute="width" constant="88" id="uCI-bE-2wc"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="bmO-OZ-KKi"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ehc-hX-xZJ" firstAttribute="top" secondItem="S3r-59-f2M" secondAttribute="bottom" constant="10" id="8xC-wV-hx1"/>
+                            <constraint firstItem="ehc-hX-xZJ" firstAttribute="width" secondItem="KUE-4h-3S4" secondAttribute="width" multiplier="0.799517" id="Dxf-na-tmf"/>
+                            <constraint firstItem="K9n-1F-cWD" firstAttribute="top" secondItem="Wxk-Se-W8v" secondAttribute="bottom" constant="10" id="Kx4-4I-g9n"/>
+                            <constraint firstItem="NCQ-IU-1Nc" firstAttribute="centerX" secondItem="KUE-4h-3S4" secondAttribute="centerX" id="Ndi-72-PrP"/>
+                            <constraint firstItem="S3r-59-f2M" firstAttribute="top" secondItem="Xxj-dP-ohj" secondAttribute="bottom" constant="10" id="OSM-fL-U3t"/>
+                            <constraint firstItem="NCQ-IU-1Nc" firstAttribute="top" secondItem="q0M-w6-Xiw" secondAttribute="bottom" constant="20" id="PYu-QS-tJq"/>
+                            <constraint firstItem="ehc-hX-xZJ" firstAttribute="centerX" secondItem="KUE-4h-3S4" secondAttribute="centerX" id="Qn1-bp-vFj"/>
+                            <constraint firstItem="q0M-w6-Xiw" firstAttribute="centerX" secondItem="KUE-4h-3S4" secondAttribute="centerX" id="U9Z-Kt-P4T"/>
+                            <constraint firstItem="K9n-1F-cWD" firstAttribute="centerX" secondItem="KUE-4h-3S4" secondAttribute="centerX" id="VWa-Xd-BGo"/>
+                            <constraint firstItem="8Uk-5l-fp0" firstAttribute="width" secondItem="KUE-4h-3S4" secondAttribute="width" multiplier="0.8" id="VZQ-W7-PzK"/>
+                            <constraint firstItem="Wxk-Se-W8v" firstAttribute="top" secondItem="qmp-Dh-3NQ" secondAttribute="bottom" constant="10" id="WnY-Rt-K3r"/>
+                            <constraint firstItem="Wxk-Se-W8v" firstAttribute="width" secondItem="KUE-4h-3S4" secondAttribute="width" multiplier="0.8" id="Yfx-hc-KXc"/>
+                            <constraint firstItem="q0M-w6-Xiw" firstAttribute="top" secondItem="ehc-hX-xZJ" secondAttribute="bottom" constant="20" id="ZEW-qh-Xr9"/>
+                            <constraint firstItem="S3r-59-f2M" firstAttribute="width" secondItem="KUE-4h-3S4" secondAttribute="width" multiplier="0.799517" id="bFC-7A-f2Q"/>
+                            <constraint firstItem="Wxk-Se-W8v" firstAttribute="centerX" secondItem="KUE-4h-3S4" secondAttribute="centerX" id="dld-Hd-NC1"/>
+                            <constraint firstItem="q0M-w6-Xiw" firstAttribute="width" secondItem="KUE-4h-3S4" secondAttribute="width" multiplier="0.799517" id="drb-xJ-vnG"/>
+                            <constraint firstItem="Xxj-dP-ohj" firstAttribute="top" secondItem="K9n-1F-cWD" secondAttribute="bottom" constant="10" id="e2J-it-NYu"/>
+                            <constraint firstItem="qmp-Dh-3NQ" firstAttribute="centerX" secondItem="KUE-4h-3S4" secondAttribute="centerX" id="gEG-xL-803"/>
+                            <constraint firstItem="K9n-1F-cWD" firstAttribute="width" secondItem="KUE-4h-3S4" secondAttribute="width" multiplier="0.8" id="h8S-WT-0BU"/>
+                            <constraint firstItem="Xxj-dP-ohj" firstAttribute="width" secondItem="KUE-4h-3S4" secondAttribute="width" multiplier="0.799517" id="pkL-ue-bzh"/>
+                            <constraint firstItem="S3r-59-f2M" firstAttribute="centerX" secondItem="KUE-4h-3S4" secondAttribute="centerX" id="q4T-EA-tLO"/>
+                            <constraint firstItem="qmp-Dh-3NQ" firstAttribute="top" secondItem="bmO-OZ-KKi" secondAttribute="top" constant="20" id="sYQ-Wq-mfO"/>
+                            <constraint firstItem="bmO-OZ-KKi" firstAttribute="bottom" secondItem="8Uk-5l-fp0" secondAttribute="bottom" constant="20" id="tyj-2q-QDN"/>
+                            <constraint firstItem="Xxj-dP-ohj" firstAttribute="centerX" secondItem="KUE-4h-3S4" secondAttribute="centerX" id="wdc-3x-TF2"/>
+                            <constraint firstItem="8Uk-5l-fp0" firstAttribute="centerX" secondItem="KUE-4h-3S4" secondAttribute="centerX" id="xmE-wt-Xmt"/>
+                            <constraint firstItem="qmp-Dh-3NQ" firstAttribute="width" secondItem="KUE-4h-3S4" secondAttribute="width" multiplier="0.8" id="zAc-Gx-XNa"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="idCardTextField" destination="S3r-59-f2M" id="Ofj-O8-rAA"/>
+                        <outlet property="nameTextField" destination="K9n-1F-cWD" id="6HG-Iz-SOI"/>
+                        <outlet property="passwordTextField" destination="Wxk-Se-W8v" id="yqi-W3-eE6"/>
+                        <outlet property="phoneTextField" destination="ehc-hX-xZJ" id="PZa-4f-PW2"/>
+                        <outlet property="sernameTextField" destination="Xxj-dP-ohj" id="rvJ-TT-nLa"/>
+                        <outlet property="userImageView" destination="NCQ-IU-1Nc" id="aQv-Q1-8tk"/>
+                        <outlet property="usernameTextField" destination="qmp-Dh-3NQ" id="ETv-qR-2mJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uN7-8V-by1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-65.217391304347828" y="161.38392857142856"/>
+        </scene>
+    </scenes>
+    <designables>
+        <designable name="8Uk-5l-fp0">
+            <size key="intrinsicContentSize" width="38" height="30"/>
+        </designable>
+        <designable name="K9n-1F-cWD">
+            <size key="intrinsicContentSize" width="66" height="34"/>
+        </designable>
+        <designable name="S3r-59-f2M">
+            <size key="intrinsicContentSize" width="120.5" height="34"/>
+        </designable>
+        <designable name="Wxk-Se-W8v">
+            <size key="intrinsicContentSize" width="85" height="34"/>
+        </designable>
+        <designable name="Xxj-dP-ohj">
+            <size key="intrinsicContentSize" width="74" height="34"/>
+        </designable>
+        <designable name="ehc-hX-xZJ">
+            <size key="intrinsicContentSize" width="86.5" height="34"/>
+        </designable>
+        <designable name="q0M-w6-Xiw">
+            <size key="intrinsicContentSize" width="76" height="30"/>
+        </designable>
+        <designable name="qmp-Dh-3NQ">
+            <size key="intrinsicContentSize" width="86" height="34"/>
+        </designable>
+    </designables>
+    <resources>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

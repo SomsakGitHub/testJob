@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="cate" transform="translate(-16 -368)">
+    <g id="Group_296" data-name="Group 296" transform="translate(0 -80)">
+      <circle id="ellipse" cx="20" cy="20" r="20" transform="translate(16 448)" fill="#b2f4ee"/>
+    </g>
+    <g id="Icon_ionic-ios-list" data-name="Icon ionic-ios-list" transform="translate(23.5 374.688)">
+      <path id="Path_1000" data-name="Path 1000" d="M6.71,17.136a1.1,1.1,0,1,1-1.1-1.1A1.1,1.1,0,0,1,6.71,17.136Z" transform="translate(0 -3.826)" fill="#4866e6"/>
+      <path id="Path_1001" data-name="Path 1001" d="M6.71,8.417a1.1,1.1,0,1,1-1.1-1.1A1.1,1.1,0,0,1,6.71,8.417Z" fill="#4866e6"/>
+      <path id="Path_1002" data-name="Path 1002" d="M6.71,25.855a1.1,1.1,0,1,1-1.1-1.1,1.1,1.1,0,0,1,1.1,1.1Z" transform="translate(0 -7.652)" fill="#4866e6"/>
+      <path id="Path_1003" data-name="Path 1003" d="M22.46,16.875H12.971a.631.631,0,1,0,0,1.263H22.46a.631.631,0,1,0,0-1.263Z" transform="translate(-3.441 -4.197)" fill="#4866e6"/>
+      <path id="Path_1004" data-name="Path 1004" d="M22.46,25.594H12.971a.631.631,0,1,0,0,1.263H22.46a.631.631,0,1,0,0-1.263Z" transform="translate(-3.441 -8.023)" fill="#4866e6"/>
+      <path id="Path_1005" data-name="Path 1005" d="M12.971,9.419H22.46a.631.631,0,1,0,0-1.263H12.971a.631.631,0,0,0,0,1.263Z" transform="translate(-3.441 -0.37)" fill="#4866e6"/>
+    </g>
+  </g>
+</svg>

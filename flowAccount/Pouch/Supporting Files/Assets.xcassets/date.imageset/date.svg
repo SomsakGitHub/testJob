@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="date" transform="translate(-16 -448)">
+    <circle id="ellipse" cx="20" cy="20" r="20" transform="translate(16 448)" fill="#b2f4ee"/>
+    <g id="Icon_feather-calendar" data-name="Icon feather-calendar" transform="translate(24.443 456.825)">
+      <path id="Path_991" data-name="Path 991" d="M6.068,6H17.046a1.568,1.568,0,0,1,1.568,1.568V18.546a1.568,1.568,0,0,1-1.568,1.568H6.068A1.568,1.568,0,0,1,4.5,18.546V7.568A1.568,1.568,0,0,1,6.068,6Z" transform="translate(0 -1.432)" fill="none" stroke="#4866e6" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_992" data-name="Path 992" d="M24,3V6.137" transform="translate(-9.306)" fill="none" stroke="#4866e6" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_993" data-name="Path 993" d="M12,3V6.137" transform="translate(-3.579)" fill="none" stroke="#4866e6" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_994" data-name="Path 994" d="M4.5,15H18.615" transform="translate(0 -5.727)" fill="none" stroke="#4866e6" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

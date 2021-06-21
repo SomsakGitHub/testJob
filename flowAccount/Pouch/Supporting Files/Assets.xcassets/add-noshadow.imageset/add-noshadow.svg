@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56">
+  <g id="add-noshadow" transform="translate(-232 -802)">
+    <circle id="Ellipse_1" data-name="Ellipse 1" cx="28" cy="28" r="28" transform="translate(232 802)" fill="#03dac6"/>
+    <g id="Icon_Add_Filled" data-name="Icon / Add / Filled" transform="translate(248 818)">
+      <rect id="Box" width="24" height="24" fill="none"/>
+      <path id="_" data-name="+" d="M-6667,567v-6h-6v-2h6v-6h2v6h6v2h-6v6Z" transform="translate(6678 -548)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

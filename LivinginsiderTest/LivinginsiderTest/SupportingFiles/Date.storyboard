@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="nWs-zg-OWP">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Date View Controller-->
+        <scene sceneID="EaU-oC-ZHb">
+            <objects>
+                <viewController id="nWs-zg-OWP" customClass="DateViewController" customModule="LivinginsiderTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rfY-l0-RbW">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="SDN-Y5-OLo">
+                                <rect key="frame" x="47" y="340" width="320" height="216"/>
+                                <locale key="locale" localeIdentifier="en_150"/>
+                            </datePicker>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W2q-P6-aPl">
+                                <rect key="frame" x="359" y="64" width="35" height="30"/>
+                                <state key="normal" title="ตกลง"/>
+                                <connections>
+                                    <action selector="dismissTouch:" destination="nWs-zg-OWP" eventType="touchUpInside" id="hIw-y7-fHc"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="0sY-3U-Qhx"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="SDN-Y5-OLo" firstAttribute="centerY" secondItem="rfY-l0-RbW" secondAttribute="centerY" id="1vE-xi-A9V"/>
+                            <constraint firstItem="W2q-P6-aPl" firstAttribute="top" secondItem="0sY-3U-Qhx" secondAttribute="top" constant="20" id="2C8-gE-Wwb"/>
+                            <constraint firstItem="0sY-3U-Qhx" firstAttribute="trailing" secondItem="W2q-P6-aPl" secondAttribute="trailing" constant="20" id="feI-U9-3AY"/>
+                            <constraint firstItem="SDN-Y5-OLo" firstAttribute="centerX" secondItem="rfY-l0-RbW" secondAttribute="centerX" id="y5m-rQ-kei"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="datePicker" destination="SDN-Y5-OLo" id="n9g-qS-gE8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uWz-bu-d81" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="291" y="164"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

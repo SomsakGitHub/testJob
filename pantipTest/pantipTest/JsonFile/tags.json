@@ -1,0 +1,53 @@
+{
+    "success": true,
+    "data": [
+        {
+            "name": "เครื่องดื่ม",
+            "image_url": [
+                "https://ptcdn.info/room_promote_tag/2019-07/5d15c41772b5e439777af659_s5pkraiqj0_200.jpg",
+                "https://ptcdn.info/room_promote_tag/2019-07/5d15c41772b5e439777af659_s5pkraiqj0_400.jpg",
+                "https://ptcdn.info/room_promote_tag/2019-07/5d15c41772b5e439777af659_s5pkraiqj0_1000.jpg"
+            ]
+        },
+        {
+            "name": "อาหาร",
+            "image_url": [
+                "https://ptcdn.info/room_promote_tag/2019-07/5cc69b8c256f6b08e449972f_5h5vqiuxe0_200.jpg",
+                "https://ptcdn.info/room_promote_tag/2019-07/5cc69b8c256f6b08e449972f_5h5vqiuxe0_400.jpg",
+                "https://ptcdn.info/room_promote_tag/2019-07/5cc69b8c256f6b08e449972f_5h5vqiuxe0_1000.jpg"
+            ]
+        },
+        {
+            "name": "อาหารไทย",
+            "image_url": [
+                "https://ptcdn.info/room_promote_tag/2019-07/5d15c52c00d01f55f206872b_rqom0k16cc_200.jpg",
+                "https://ptcdn.info/room_promote_tag/2019-07/5d15c52c00d01f55f206872b_rqom0k16cc_400.jpg",
+                "https://ptcdn.info/room_promote_tag/2019-07/5d15c52c00d01f55f206872b_rqom0k16cc_1000.jpg"
+            ]
+        },
+        {
+            "name": "สูตรอาหาร",
+            "image_url": [
+                "https://ptcdn.info/room_promote_tag/2019-07/5cf7a81035c1243e204161e6_7smj2a9zl1_200.jpg",
+                "https://ptcdn.info/room_promote_tag/2019-07/5cf7a81035c1243e204161e6_7smj2a9zl1_400.jpg",
+                "https://ptcdn.info/room_promote_tag/2019-07/5cf7a81035c1243e204161e6_7smj2a9zl1_1000.jpg"
+            ]
+        },
+        {
+            "name": "ร้านอาหาร",
+            "image_url": [
+                "https://ptcdn.info/room_promote_tag/2019-07/5cf7a8c572b5e443a16cdaf1_d4ht80aboi_200.jpg",
+                "https://ptcdn.info/room_promote_tag/2019-07/5cf7a8c572b5e443a16cdaf1_d4ht80aboi_400.jpg",
+                "https://ptcdn.info/room_promote_tag/2019-07/5cf7a8c572b5e443a16cdaf1_d4ht80aboi_1000.jpg"
+            ]
+        },
+        {
+            "name": "เบเกอรี่",
+            "image_url": [
+                "https://ptcdn.info/room_promote_tag/2019-07/5cc69b5e198ac62db82d736c_e5ez94x1w2_200.jpg",
+                "https://ptcdn.info/room_promote_tag/2019-07/5cc69b5e198ac62db82d736c_e5ez94x1w2_400.jpg",
+                "https://ptcdn.info/room_promote_tag/2019-07/5cc69b5e198ac62db82d736c_e5ez94x1w2_1000.jpg"
+            ]
+        }
+    ]
+}

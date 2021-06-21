@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "BE1385FD-993D-49CB-91DE-650E6D70203A"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D1F08537-B8A6-4F65-8ECB-4CF20EBA1C7E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pouch/CoreData/TransactionCoreData.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "saveTransaction(data:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D82C7DDE-2565-4DDF-B332-F6008DBA76ED"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pouch/CoreData/TransactionCoreData.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "saveTransaction(data:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D82C7DDE-2565-4DDF-B332-F6008DBA76ED - ea2566d872a88ecb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pouch.TransactionCoreData.saveTransaction(data: Pouch.Transaction) -&gt; ()"
+                  moduleName = "Pouch"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/somsak/Desktop/ios-developer/Pouch/CoreData/TransactionCoreData.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "1716">
+               </Location>
+               <Location
+                  uuid = "D82C7DDE-2565-4DDF-B332-F6008DBA76ED - ea2566d872a88ecb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pouch.TransactionCoreData.saveTransaction(data: Pouch.Transaction) -&gt; ()"
+                  moduleName = "Pouch"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/somsak/Desktop/ios-developer/Pouch/CoreData/TransactionCoreData.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "1816">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

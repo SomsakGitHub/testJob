@@ -1,0 +1,6 @@
+framework module Pods_KrungsriTest {
+  umbrella header "Pods-KrungsriTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
